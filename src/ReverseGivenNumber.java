@@ -10,7 +10,7 @@ public class ReverseGivenNumber {
         while(num!=0) // true,true,true ,false
         {
             rem=num%10; // 3 , 6 ,2
-            rev=rev*10+rem; // 3 ,3*10+6 , (3*10+6)*10 +2
+            rev=rev*10+rem; // 3 ,3*10+6 , (3*10+6)*10 +2 = 362
             num=num/10; // 26 ,2 ,0
         }
         System.out.println("Reverse of Given number is :"+rev);
