@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class CheckArmstrongNumber {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); // take only 3 digit number
+        
         System.out.println("Enter Number:");
         int num=sc.nextInt(); // 371
         int temp=num;
