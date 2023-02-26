@@ -13,10 +13,10 @@ public class ArmstsrongNumberBetweenTwoNumbers
             digits++;
         }
 
-        temp = n;
+        temp = n; // it is needed 
         int rem;
         int sum=0;
-        while(temp>0)
+        while(temp!=0)
         {
 
             rem = temp % 10;
