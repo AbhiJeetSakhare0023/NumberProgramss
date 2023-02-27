@@ -4,8 +4,9 @@ public class ArmstsrongNumberBetweenTwoNumbers
 {
     static boolean isArmstrong(int n)
     {
-        int digits=0;
+
         int temp=n;
+        int digits=0;
 
         while(temp>0)
         {
@@ -13,10 +14,10 @@ public class ArmstsrongNumberBetweenTwoNumbers
             digits++;
         }
 
-        temp = n;
+        temp = n; // it's needed
         int rem;
         int sum=0;
-        while(temp>0)
+        while(temp!=0)
         {
 
             rem = temp % 10;
